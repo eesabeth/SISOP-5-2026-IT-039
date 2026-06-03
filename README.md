@@ -23,5 +23,12 @@ unzip template zip
 Hasil:
 
 #### b. Melengkapkan fungsi `_getChar` di file `kernel.asm`
-
+```
+_getChar:
+	mov ah, 0x00
+	int 0x16
+	mov ah, 0x00
+	ret
+```
+:
 
