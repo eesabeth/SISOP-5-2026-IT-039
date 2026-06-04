@@ -133,6 +133,13 @@ void printTriangle(int n) {
 : `help` berfungsi untuk mencetak satu baris teks yang berisi daftar command yang tersedia.
 
 #### Compile & Run
+Kalau pakai Bochs dari WSL,
+```
+make
+export DISPLAY=$(ip route | awk '/default/ {print $3}'):0
+bochs -f bochsrc.txt -q
+```
+
 Kalau pakai Bochs dari Windows,
 1. Buka Bochs App
 2. ```
