@@ -147,5 +147,10 @@ Kalau pakai Bochs dari Windows,
 3. Load file `bochsrc.txt`, dan Start.
    
 ### Kendala
-Screen Bochs Emulator muncul saat di-*run*, tetapi terus-menerus blank screen dan string intro nya tidak keluar.
+1. Screen Bochs Emulator muncul saat di-*run*, tetapi terus-menerus blank screen dan string intro nya tidak keluar.
+2. Screen Bochs mengatakan *"No bootable devices"* (Saat pakai Bochs dari WSL)
+3. Screen Bochs error PANIC mengatakan *"can't open file image"*
+
+Dokum:
+
 
