@@ -20,7 +20,8 @@ i. Melengkapi file `kernel.c`, sehingga berhasil menjalankan fitur **clear** dan
 gdown "https://drive.google.com/file/d/14rOog6VbT6sxjp3s_GJoTW7hgE6FAtmo/view?usp=sharing"
 unzip template zip
 ```
-Hasil:
+Hasil:  
+<img src="assets/soal_2/output_templatezip.png" width="450">
 
 #### b. Melengkapkan fungsi `_getChar` di file `kernel.asm`
 ```
@@ -151,6 +152,9 @@ Kalau pakai Bochs dari Windows,
 2. Screen Bochs mengatakan *"No bootable devices"* (Saat pakai Bochs dari WSL)
 3. Screen Bochs error PANIC mengatakan *"can't open file image"*
 
-Dokum:
+Dokum:  
+<img src="assets/soal_2/output_kendala1.png" width="450">
+<img src="assets/soal_2/output_kendala2.png" width="450">
+<img src="assets/soal_2/output_kendala3.png" width="450">
 
 
