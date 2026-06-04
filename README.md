@@ -143,14 +143,7 @@ bochs -f bochsrc.txt -q
 Kalau pakai Bochs dari Windows,
 1. Buka Bochs App
 2. ```
-   nasm -f as86 kernel.asm -o kernel_asm.o
-   bcc -ansi -c kernel.c -o kernel.o
-   ld86 -o kernel.bin -d kernel_asm.o kernel.o
-   
-   // setelah berhasil, jalankan ini
-   dd if=/dev/zero of=floppy.img bs=512 count=2880
-   dd if=bootloader.bin of=floppy.img bs=512 count=1 conv=notrunc
-   dd if=kernel.bin of=floppy.img bs=512 seek=1 conv=notrunc
+   make
    ```
 3. Load file `bochsrc.txt`, dan Start.
    
